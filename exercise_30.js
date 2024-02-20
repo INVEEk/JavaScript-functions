@@ -7,9 +7,11 @@ the function should return true  if the number represents a leap year, and false
  */
 
 function isLeapYear(number) {
-    return number === 366;
+    return ((number % 4 === 0 && number % 100 !== 0) || number % 400 === 0);
 }
 
 
-console.log(isLeapYear(365));
-console.log(isLeapYear(366));
+console.log(isLeapYear(2012));
+console.log(isLeapYear(2024));
+console.log(isLeapYear(1998));
+console.log(isLeapYear(2027));

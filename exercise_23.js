@@ -9,7 +9,7 @@ the function should return true  if the number is odd, and false  if the number 
  */
 
 function isOddNumber(number) {
-    return number % 2 === 0;
+    return number % 2 !== 0;
 }
 
 console.log(isOddNumber(2));

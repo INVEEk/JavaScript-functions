@@ -8,9 +8,9 @@ a number
 the function should return the number converted from Celcius to Fahrenheit
  */
 
-const farenheitDegree = 33.8
+const CELCIUS_TO_FAHRENHEIT_INDICATOR = 1.8
 function getCelciusConvertedToFahrenheit (number) {
-    return number * farenheitDegree;
+    return (number * CELCIUS_TO_FAHRENHEIT_INDICATOR) + 32;
 }
 
 console.log(getCelciusConvertedToFahrenheit(10));

@@ -7,7 +7,7 @@ the function should return true  if the number is negative, and false  if the nu
  */
 
 function isNumberNegative (number) {
-    return number < 0 ? true : false;
+    return number < 0;
 }
 
 console.log(isNumberNegative(-5));

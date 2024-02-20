@@ -9,7 +9,7 @@ the function should return true  if the number is even, and false  if the number
  */
 
 function isEvenNumber(number) {
-    return number % 2 !== 0;
+    return number % 2 === 0;
 }
 
 console.log(isEvenNumber(2));
